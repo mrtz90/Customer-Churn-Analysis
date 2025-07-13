@@ -1,0 +1,34 @@
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (if large or private)
+data/
+*.csv
+*.xlsx
+
+# Ignore model binaries or weights
+*.pkl
+*.joblib
+*.h5
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore environment files (optional)
+.env
+venv/
+*.env
+
+# Ignore Jupyter runtime
+*.log
+.DS_Store
+
+# PyCharm / IntelliJ IDEA project folder
+.idea/
+*.iml
+
+
+# Ignor some file
+main.ipynb
+main.py
