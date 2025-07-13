@@ -87,4 +87,4 @@ Metrics used: Accuracy, Precision, Recall, F1-Score, ROC AUC
 
 ## 📬 Contact
 
-Made with ❤️ by [Your Name]  
+Made with ❤️ by Mrtz90  
