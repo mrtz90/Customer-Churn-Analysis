@@ -60,6 +60,7 @@ Metrics used: Accuracy, Precision, Recall, F1-Score, ROC AUC
 
 📦 telco-churn-project/
 ├── data/ # Raw and cleaned datasets (gitignored)
+
 ├── notebooks/
 │ └── telco-churn-analysis.ipynb # Full EDA and modeling
 ├── output/ # Final plots, metrics, saved models
