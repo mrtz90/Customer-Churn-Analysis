@@ -48,7 +48,7 @@ Metrics used: Accuracy, Precision, Recall, F1-Score, ROC AUC
 
 ## 🛠️ Tech Stack
 
-- Python 3.x
+- Python 3.13
 - Jupyter Notebook
 - pandas, numpy
 - matplotlib, seaborn
