@@ -53,6 +53,8 @@ Metrics used: Accuracy, Precision, Recall, F1-Score, ROC AUC
 - pandas, numpy
 - matplotlib, seaborn
 - scikit-learn, xgboost
+- SHAP
+- Power BI
 
 ---
 
@@ -64,9 +66,18 @@ Metrics used: Accuracy, Precision, Recall, F1-Score, ROC AUC
 
 ├── notebooks/
 
-│ └── telco-churn-analysis.ipynb # Full EDA and modeling
+│ ├── telco-churn-eda.ipynb # EDA, visualizations, insights
 
-├── output/ # Final plots, metrics, saved models
+│ └── telco-churn-modeling.ipynb # Preprocessing, modeling, tuning, SHAP
+
+├── models/
+│ └── final_xgb_model.pkl # Saved tuned XGBoost model
+
+├── reports/
+
+│ └── telco-churn-report.ipynb
+
+├── requirements.txt # Project dependencies
 
 ├── README.md
 
@@ -81,6 +92,17 @@ Metrics used: Accuracy, Precision, Recall, F1-Score, ROC AUC
 2. Install dependencies with `pip install -r requirements.txt`  
 3. Run `telco-churn-analysis.ipynb` in Jupyter  
 4. Replace `data/` with your dataset if needed
+3. Launch Jupyter Notebook:
+
+``` bash
+Copy
+Edit
+jupyter lab
+Open the notebooks in the notebooks/ folder.
+
+Explore EDA, run modeling cells, and view dashboards or export reports.
+
+
 
 ---
 
