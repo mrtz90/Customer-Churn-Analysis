@@ -89,18 +89,16 @@ Metrics used: Accuracy, Precision, Recall, F1-Score, ROC AUC
 ## 🚀 How to Run
 
 1. Clone this repo  
-2. Install dependencies with `pip install -r requirements.txt`  
-3. Run `telco-churn-analysis.ipynb` in Jupyter  
-4. Replace `data/` with your dataset if needed
-3. Launch Jupyter Notebook:
+2. Install dependencies with `pip install -r requirements.txt`    
+3. Replace `data/` with your dataset if needed
+4. Launch Jupyter Notebook:
 
 ``` bash
-Copy
-Edit
-jupyter lab
-Open the notebooks in the notebooks/ folder.
+   jupyter lab
+```
+5. Open the notebooks in the notebooks/ folder.
 
-Explore EDA, run modeling cells, and view dashboards or export reports.
+6. Explore EDA, run modeling cells, and view dashboards or export reports.
 
 
 
